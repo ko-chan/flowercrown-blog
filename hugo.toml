@@ -1,0 +1,42 @@
+baseURL = 'https://ko-chan.github.io/flowercrown-blog/'
+languageCode = 'ja'
+title = 'Flowercrown Blog'
+theme = 'PaperMod'
+canonifyURLs = true
+
+[params]
+  author = 'ko-chan'
+  description = 'Claude Code で作る Multi-tenant Subscription System「flowercrown」の開発記'
+  showReadingTime = true
+  showShareButtons = true
+  showCodeCopyButtons = true
+
+[[params.socialIcons]]
+  name = 'github'
+  url = 'https://github.com/ko-chan'
+
+[[params.socialIcons]]
+  name = 'x'
+  url = 'https://x.com/ko_chan'
+
+[[params.socialIcons]]
+  name = 'rss'
+  url = '/flowercrown-blog/index.xml'
+
+[params.homeInfoParams]
+  Title = 'Flowercrown Blog'
+  Content = 'Claude Code を使って Multi-tenant Subscription System を作る記録。前身プロジェクト Saru の振り返りを経て、flowercrown を縦スライスで作り直している。前身の開発記は [Saru Blog](https://ko-chan.github.io/saru-blog/)(アーカイブ済み)。'
+
+[markup.highlight]
+  codeFences = true
+  lineNos = true
+  style = 'monokai'
+
+[sitemap]
+  changefreq = 'weekly'
+  filename = 'sitemap.xml'
+  priority = 0.5
+
+[services]
+  [services.googleAnalytics]
+    ID = 'G-FL4H19VBK5'
