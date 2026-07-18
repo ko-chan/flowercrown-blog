@@ -25,7 +25,7 @@ canonifyURLs = true
 
 [params.homeInfoParams]
   Title = 'Flowercrown Blog'
-  Content = 'Claude Code を使って Multi-tenant Subscription System を作る記録。前身プロジェクト Saru の振り返りを経て、flowercrown を縦スライスで作り直している。前身の開発記は [Saru Blog](https://ko-chan.github.io/saru-blog/)(アーカイブ済み)。'
+  Content = 'Claude Code を使って Multi-tenant Subscription System「flowercrown」を1人で作る開発記。縦スライスで、歩けるジャーニーを1本ずつ。'
 
 [markup.highlight]
   codeFences = true
