@@ -16,10 +16,6 @@ canonifyURLs = true
   url = 'https://github.com/ko-chan'
 
 [[params.socialIcons]]
-  name = 'x'
-  url = 'https://x.com/ko_chan'
-
-[[params.socialIcons]]
   name = 'rss'
   url = '/flowercrown-blog/index.xml'
 
